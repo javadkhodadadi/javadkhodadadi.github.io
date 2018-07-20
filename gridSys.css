@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    direction: rtl;
+}
+
+.item {
+    /* max-width: 360px; */
+    /*should not define max-width*/
+    /* font-size: 30px;
+    margin: 10px auto;
+    text-align: center;
+    background-color: lightcyan;
+    max-width: 320px; */
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.row::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+[class*="col-"] {
+    float: right;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* ______________________________________ */
+
+
+/* extra small */
+
+.col-xs-12 {
+    width: 100%;
+}
+
+.col-xs-11 {
+    width: 91.6666666667%;
+}
+
+.col-xs-10 {
+    width: 83.3333333333%;
+}
+
+.col-xs-9 {
+    width: 75%;
+}
+
+.col-xs-8 {
+    width: 66.6666666667%;
+}
+
+.col-xs-7 {
+    width: 58.3333333333%;
+}
+
+.col-xs-6 {
+    width: 50%;
+}
+
+.col-xs-5 {
+    width: 41.6666666667%;
+}
+
+.col-xs-4 {
+    width: 33.3333333333%;
+}
+
+.col-xs-3 {
+    width: 25%;
+}
+
+.col-xs-2 {
+    width: 16.666666667%;
+}
+
+.col-xs-1 {
+    width: 8.33333333333%;
+}
+
+
+/* ______________________________________ */
+
+
+/* small */
+
+@media screen and (min-width: 720px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+    .col-sm-11 {
+        width: 91.6666666667%;
+    }
+    .col-sm-10 {
+        width: 83.3333333333%;
+    }
+    .col-sm-9 {
+        width: 75%;
+    }
+    .col-sm-8 {
+        width: 66.6666666667%;
+    }
+    .col-sm-7 {
+        width: 58.3333333333%;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .col-sm-5 {
+        width: 41.6666666667%;
+    }
+    .col-sm-4 {
+        width: 33.3333333333%;
+    }
+    .col-sm-3 {
+        width: 25%;
+    }
+    .col-sm-2 {
+        width: 16.666666667%;
+    }
+    .col-sm-1 {
+        width: 8.33333333333%;
+    }
+}
+
+
+/* ______________________________________ */
+
+
+/* medium */
+
+@media screen and (min-width: 960px) {
+    .col-md-12 {
+        width: 100%;
+    }
+    .col-md-11 {
+        width: 91.6666666667%;
+    }
+    .col-md-10 {
+        width: 83.3333333333%;
+    }
+    .col-md-9 {
+        width: 75%;
+    }
+    .col-md-8 {
+        width: 66.6666666667%;
+    }
+    .col-md-7 {
+        width: 58.3333333333%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-5 {
+        width: 41.6666666667%;
+    }
+    .col-md-4 {
+        width: 33.3333333333%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-2 {
+        width: 16.666666667%;
+    }
+    .col-md-1 {
+        width: 8.33333333333%;
+    }
+}
+
+
+/* ______________________________________ */
+
+
+/* large */
+
+@media screen and (min-width: 1140px) {
+    .col-lg-12 {
+        width: 100%;
+    }
+    .col-lg-11 {
+        width: 91.6666666667%;
+    }
+    .col-lg-10 {
+        width: 83.3333333333%;
+    }
+    .col-lg-9 {
+        width: 75%;
+    }
+    .col-lg-8 {
+        width: 66.6666666667%;
+    }
+    .col-lg-7 {
+        width: 58.3333333333%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+    .col-lg-5 {
+        width: 41.6666666667%;
+    }
+    .col-lg-4 {
+        width: 33.3333333333%;
+    }
+    .col-lg-3 {
+        width: 25%;
+    }
+    .col-lg-2 {
+        width: 16.666666667%;
+    }
+    .col-lg-1 {
+        width: 8.33333333333%;
+    }
+}
+
+
+/* in some grid systems use xl (extra large) for very big screens) */
+
+
+/* ______________________________________ */
+
+
+/* extra large */
+
+@media screen and (min-width: 1600px) {
+    .col-xl-12 {
+        width: 100%;
+    }
+    .col-xl-11 {
+        width: 91.6666666667%;
+    }
+    .col-xl-10 {
+        width: 83.3333333333%;
+    }
+    .col-xl-9 {
+        width: 75%;
+    }
+    .col-xl-8 {
+        width: 66.6666666667%;
+    }
+    .col-xl-7 {
+        width: 58.3333333333%;
+    }
+    .col-xl-6 {
+        width: 50%;
+    }
+    .col-xl-5 {
+        width: 41.6666666667%;
+    }
+    .col-xl-4 {
+        width: 33.3333333333%;
+    }
+    .col-xl-3 {
+        width: 25%;
+    }
+    .col-xl-2 {
+        width: 16.666666667%;
+    }
+    .col-xl-1 {
+        width: 8.33333333333%;
+    }
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>سینانت </title>
+    <link href="../gridSys.css" rel="stylesheet" />
+    <link href="../style.css" rel="stylesheet" />
+    <link href="../font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <script src="../jquery-3.1.1.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(window).resize(function() {
+                if ($(window).width() < 720) {
+                    $("nav ul").hide();
+                }
+            });
+
+            $("nav span").click(function() {
+                $("nav ul").slideToggle();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="row" style="width: auto;height: auto">
+            <nav>
+                <!-- button -->
+                <span class="fa fa-bars fa-2x"></span>
+                <ul>
+                    <li><a href="../index.html">خانه</a></li>
+                    <li><a href="#">مقاله‌ها</a></li>
+                    <li><a href="favorites.html">علاقه‌ها</a></li>
+                    <li><a href="contact.html">تماس با من</a></li>
+                    <li><a href="about.html">درباره‌ی من</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <header class="col-xs-12">
+                <h1>سینانت</h1>
+                <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                    کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید
+                    داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+
+                </p>
+            </header>
+        </div>
+        <!-- <div class="row" style="padding-top: 50px">
+            <p style="color:black">asdfjkl; asjdfkl; asjdkfl; asdjfkl;as asdfjl;</p>
+            <div style="width: 500px; height: 200px; display: block; background-color:blue">
+                <span class="fa fa-address-book" style="width:auto;height:auto">asdfasdfasdf</span>
+                <i class="fa fa-address-card" style="color:black; width:auto; height:auto"></i>
+
+            </div>
+        </div> -->
+        <div class="row">
+            <div class="col-xs-12" style="padding: 0;">
+                <div id="productsList">
+                    <h2>لیست محصول‌ها</h2>
+                </div>
+            </div>
+            <!-- products -->
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="item">
+                    <a href="#">
+                        <img src="images/item01.jpg" />
+                        <h3>محصول شماره‌ی ۱</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="item">
+                    <a href="#">
+                        <img src="images/item02.jpg" />
+                        <h3>محصول شماره‌ی ۲</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="item">
+                    <a href="#">
+                        <img src="images/item03.jpg" />
+                        <h3>محصول شماره‌ی ۳</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="item">
+                    <a href="#">
+                        <img src="images/item04.jpg" />
+                        <h3>محصول شماره‌ی ۴</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="item">
+                    <a href="#">
+                        <img src="images/item05.jpg" />
+                        <h3>محصول شماره‌ی ۵</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="item">
+                    <a href="#">
+                        <img src="images/item06.jpg" />
+                        <h3>محصول شماره‌ی ۶</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="item">
+                    <a href="#">
+                        <img src="images/item07.jpg" />
+                        <h3>محصول شماره‌ی ۷</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="item">
+                    <a href="#">
+                        <img src="images/item08.jpg" />
+                        <h3>محصول شماره‌ی ۸</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="item">
+                    <a href="#">
+                        <img src="images/item09.jpg" />
+                        <h3>محصول شماره‌ی ۹</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="item">
+                    <a href="#">
+                        <img src="images/item10.jpg" />
+                        <h3>محصول شماره‌ی ۱۰</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="item">
+                    <a href="#">
+                        <img src="images/item11.jpg" />
+                        <h3>محصول شماره‌ی ۱۱</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="item">
+                    <a href="#">
+                        <img src="images/item12.jpg" />
+                        <h3>محصول شماره‌ی ۱۲</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- end of wrapper -->
+    <footer>
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div id="newsletter">
+                        <form>
+                            <input type="email" placeholder="آدرس ایمیل" />
+                            <input type="submit" value="عضویت در خبرنامه" />
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div id="sitemap">
+                        <li><a href="#">صفحه‌ی اصلی</a></li>
+                        <li><a href="#">تبلیغات</a></li>
+                        <li><a href="#">تماس‌باما</a></li>
+                        <li><a href="#">درباره‌ی ما</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

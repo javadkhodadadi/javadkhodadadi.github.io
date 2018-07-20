@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>سینانت</title>
+    <link href="../gridSys.css" rel="stylesheet" />
+    <link href="../style.css" rel="stylesheet" />
+    <link href="../font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <script src="../jquery-3.1.1.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(window).resize(function() {
+                if ($(window).width() < 720) {
+                    $("nav ul").hide();
+                }
+            });
+
+            $("nav span").click(function() {
+                $("nav ul").slideToggle();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <main class="wrapper">
+        <section class="row" style="width: auto;height: auto">
+            <nav>
+                <!-- button -->
+                <span class="fa fa-bars fa-2x"></span>
+                <ul>
+                    <li><a href="../index.html">خانه</a></li>
+                    <li><a href="#">مقاله‌ها</a></li>
+                    <li><a href="favorites.html">علاقه‌ها</a></li>
+                    <li><a href="contact.html">تماس با من</a></li>
+                    <li><a href="about.html">درباره‌ی من</a></li>
+                </ul>
+            </nav>
+        </section>
+        <div class="row">
+            <header class="col-xs-12" style="background: none; height: 50px">
+                <h1>تماس با من</h1>
+            </header>
+        </div>
+        <!-- <div class="row" style="padding-top: 50px">
+            <p style="color:black">asdfjkl; asjdfkl; asjdkfl; asdjfkl;as asdfjl;</p>
+            <div style="width: 500px; height: 200px; display: block; background-color:blue">
+                <span class="fa fa-address-book" style="width:auto;height:auto">asdfasdfasdf</span>
+                <i class="fa fa-address-card" style="color:black; width:auto; height:auto"></i>
+
+            </div>
+        </div> -->
+        <div class="row">
+            <div class="col-xs-12" style="padding: 0;">
+                <div id="productsList">
+                    <h2>راه‌های ارتباطی </h2>
+                </div>
+            </div>
+            <!-- products -->
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="item">
+                    <a href="http://t.me/Sina_BeikNejad">
+                        <img src="../images/telegram.png" />
+                        
+                    </a>
+                </div>
+            </div>
+  
+        </div>
+
+    </main>
+    <!-- end of wrapper -->
+    
+</body>
+
+</html>
