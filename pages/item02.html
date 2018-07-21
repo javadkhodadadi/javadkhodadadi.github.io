@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset="utf-8" />
+    <title>جوادنت </title>
+    <link href="../gridSys.css" rel="stylesheet" />
+    <link href="../style.css" rel="stylesheet" />
+    <link href="../font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <script src="../jquery-3.1.1.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(window).resize(function() {
+                if ($(window).width() < 720) {
+                    $("nav ul").hide();
+                }
+            });
+
+            $("nav span").click(function() {
+                $("nav ul").slideToggle();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <main class="wrapper">
+        <section class="row" style="width: auto;height: auto">
+            <nav>
+                <!-- button -->
+                <span class="fa fa-bars fa-2x"></span>
+                <ul>
+                    <li><a href="../index.html">خانه</a></li>
+                    <li><a href="#">مقاله‌ها</a></li>
+                    <li><a href="favorites.html">علاقه‌ها</a></li>
+                    <li><a href="contact.html">تماس با من</a></li>
+                    <li><a href="about.html">درباره‌ی من</a></li>
+                </ul>
+            </nav>
+        </section>
+        <article class="row">
+            <header class="col-xs-12" style="background-color: aquamarine">
+                <h1>عنوان</h1>
+                <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                    کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید
+                    داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+
+
+                </p>
+            </header>
+        </article>
+      
+    </main>
+
+</body>
+
+</html>
